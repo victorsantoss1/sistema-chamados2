@@ -14,6 +14,7 @@ function RoutesApp(){
             <Route path="/dashboard" element={<Privete> <Dashboard></Dashboard> </Privete>}></Route>
             <Route path="/profile" element={<Privete> <Profile></Profile> </Privete>}></Route>
             <Route path="/customers" element={<Privete> <Customers> </Customers></Privete>}></Route>
+            <Route path="/new" element={<Privete> <New></New> </Privete>}></Route>
         </Routes>
     )
 
